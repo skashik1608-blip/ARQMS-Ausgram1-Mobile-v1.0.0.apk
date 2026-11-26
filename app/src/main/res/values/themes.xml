@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ARQMS" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/arqms_green</item>
+        <item name="colorPrimaryDark">@color/arqms_green_dark</item>
+        <item name="colorAccent">@color/arqms_gold</item>
+        <item name="android:statusBarColor">@color/arqms_green_dark</item>
+        <item name="android:windowBackground">@color/arqms_green</item>
+    </style>
+</resources>
