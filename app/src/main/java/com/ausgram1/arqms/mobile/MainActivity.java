@@ -198,7 +198,7 @@ public class MainActivity extends AppCompatActivity {
                     String offlineHtml = "<html><body style='font-family:sans-serif;text-align:center;padding:48px 20px;background:#f1f5f9;color:#0f172a;'>"
                             + "<h2 style='color:#004d28;'>ARQMS Portal — Ausgram-I</h2>"
                             + "<p style='color:#475569;'>Internet connection unavailable. Please check mobile data/Wi-Fi and tap Retry.</p>"
-                            + "<button onclick='window.location.href="" + PORTAL_URL + ""' "
+                            + "<button onclick=\"window.location.href='" + PORTAL_URL + "'\" "
                             + "style='background:#004d28;color:#fff;border:none;padding:12px 24px;border-radius:8px;font-size:16px;font-weight:bold;'>Retry Connection</button>"
                             + "</body></html>";
                     view.loadDataWithBaseURL(null, offlineHtml, "text/html", "UTF-8", null);
